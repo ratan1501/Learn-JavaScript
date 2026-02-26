@@ -1,4 +1,4 @@
-// CallBack
+// Callback
 
 function zomatoOrderPalced( ) {
     console.log("We have started preparing your food");

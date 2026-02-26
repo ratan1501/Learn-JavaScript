@@ -12,13 +12,14 @@
 // Example 
 
 let getPromise = () => {
-  return new Promise((reslove, rejucted) => {
+  return new Promise((resolve, reject) => {
     console.log("Promised");
     reject("error");
   });
 };
 
 let promise = getPromise();
+
 promise.then((res) => {
   console.log("promise fulfilled", res);
 });
